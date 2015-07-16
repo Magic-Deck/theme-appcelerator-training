@@ -7,7 +7,7 @@ Appcelerator training theme for the Ponyshow presentation engine.
 To see this theme in action:
 
 - Run a presentation using the Ponyshow CLI or Ponyshow App
-- Set the theme property for a slide ```theme:appcelerator``` or use the CLI to set the property ```pony config set theme=appcelerator```
+- Set the theme property for a slide ```theme:appcelerator-training``` or use the CLI to set the property ```pony config set theme=appcelerator-training```
 - Run the Ponyshow markdown file (```deck.md```)
 - Click any slide to enter presentation mode
 - Use arrow keys or presenter remote to navigate

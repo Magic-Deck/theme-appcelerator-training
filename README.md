@@ -2,6 +2,22 @@
 
 Appcelerator training theme for the Ponyshow presentation engine.
 
+### Gallery
+
+![Gallery](https://monosnap.com/file/SPMkYMwKzPH0Ibre5OSVdmPgKgZjqo.png)
+
+### Cover
+
+![Cover](https://monosnap.com/file/TSg5rtUiTorFS9OLeRyAfLAQCyQxJH.png)
+
+### Section
+
+![Section](https://monosnap.com/file/xL8w53B1RPnM0T34j9B582mGcffkpV.png)
+
+### Slide
+
+![Slide](https://monosnap.com/file/c30Pe72JWJm7BKc26gputRlCrk24pM.png)
+
 [![Get it on npm](https://nodei.co/npm/ponyshow-theme-appcelerator-training.png)](https://nodei.co/npm/ponyshow-theme-appcelerator-training/)
 
 To see this theme in action:

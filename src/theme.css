@@ -162,7 +162,8 @@ div.rendererror div {text-align:center;color:#fff;}
   -webkit-print-color-adjust: exact;
   -webkit-text-size-adjust: none;
   -moz-text-size-adjust: none;
-  -ms-text-size-adjust: none
+  -ms-text-size-adjust: none;
+  counter-increment:slide;
 }
 @media print {
   .slide {
@@ -170,15 +171,12 @@ div.rendererror div {text-align:center;color:#fff;}
   }
 }
 .slide:after {
-  position: absolute;
-  right: 0;
-  bottom: 45px;
-  left: 0;
-  color: #AAA;
-  counter-increment: slide;
-  content: counter(slide);
-  text-align: center;
-  line-height: 1
+  right: 10px;		right: 0;
+  bottom: 10px;		bottom: 45px;
+  color: #E5E2E2;		color: #AAA;
+  content: counter(slide);		counter-increment: slide;
+  line-height: 1;		content: counter(slide);
+  text-align: right;
 }
 .slide>div {
   position: absolute;
@@ -214,6 +212,10 @@ div.rendererror div {text-align:center;color:#fff;}
 }
 .slide b,.slide strong {
   font-weight: 700
+}
+.slide .br {		
+  display:-webkit-box;		
+  margin-top: -15px;		
 }
 .slide i,.slide em {
   font-style: italic
@@ -263,10 +265,19 @@ div.rendererror div {text-align:center;color:#fff;}
   margin-left: 0px;
   list-style-image: url('../images/bullet.png');
   list-style-position: inside;
+  clear: both;		
+  -moz-column-count: 2;		
+  -moz-column-gap: 30px;		
+  -webkit-column-count: 1;		
+  -webkit-column-gap: 30px;		
+  column-count: 1;		
+  column-gap: 30px;		
+  overflow:hidden;		
+  height:100%;
 }
 .slide ol li,.slide ul li {
-  text-indent: -1em;
-  font-size: 1.4em;
+  text-indent: 0em;
+  font-size: calc(100% + 0.6vmax);;
   line-height: 140%;
   margin-bottom: 1%;
   column-break-inside: avoid;

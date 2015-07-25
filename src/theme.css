@@ -182,12 +182,14 @@ div.rendererror .text {
   }
 }
 .slide:after {
-  right: 10px;
-  bottom: 10px;
-  color: #E5E2E2;
+  position: absolute;
+  right: 0;
+  bottom: 45px;
+  left: 0;
+  color: #AAA;
   content: counter(slide);
-  line-height: 1;
-  text-align: right;
+  text-align: center;
+  line-height: 1
 }
 .slide>div {
   position: absolute;

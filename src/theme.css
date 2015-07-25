@@ -241,11 +241,11 @@ a {
 }
 .slide blockquote:before {
   position: absolute;
-  margin: -49px 0 0 -100px;
-  color: #DDD;
+  margin: -10px 0 0 -90px;
+  color: #797979;
   content: '\201C';
   line-height: 1;
-  font-size: 200px
+  font-size: 85px;
 }
 .slide blockquote+figcaption {
   margin: -48px 0 48px;

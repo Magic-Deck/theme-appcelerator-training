@@ -388,7 +388,7 @@ font-size: 80%;
 }
 .slide > div:first-of-type {
   background-image: url('../images/slide.standard.png');
-  background-size: contain;
+  background-size: cover;
 }
 .slide.cover > div:first-of-type {
   background-image: url('../images/cover.standard.png');
@@ -408,7 +408,7 @@ background-image: url('../images/section.standard.png');
 */
 .slide.widescreen > div:first-of-type {
   background-image: url('../images/slide.widescreen.png');
-  background-size: contain;
+  background-size: cover;
 }
 .slide.widescreen.cover > div:first-of-type {
   background-image: url('../images/cover.widescreen.png');

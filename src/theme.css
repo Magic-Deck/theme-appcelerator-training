@@ -176,6 +176,10 @@ div.rendererror .text {
   -ms-text-size-adjust: none;
   counter-increment:slide;
 }
+.slide.widescreen {
+  width: 1920px;
+  height: 1080px;
+}
 @media print {
   .slide {
     page-break-before: always
@@ -373,34 +377,61 @@ line-height: 30px;
 font-size: 80%;
 }
 .slide table th {
-text-align: left;
-font-weight: 700
+  text-align: left;
+  font-weight: 700
 }
 .slide table.striped tr:nth-child(even) {
-background: #f1f7fc
+  background: #f1f7fc
 }
 .slide p,.slide ol,.slide table,.slide pre,.slide figure {
-margin-top: 20px;
+  margin-top: 20px;
 }
 .slide > div:first-of-type {
-background-image: url('../images/slide.jpg');
-background-size: contain;
+  background-image: url('../images/slide.standard.png');
+  background-size: contain;
 }
 .slide.cover > div:first-of-type {
-background-image: url('../images/cover.jpg');
+  background-image: url('../images/cover.standard.png');
 }
 .slide.section > div:first-of-type {
-background-image: url('../images/section.jpg');
+background-image: url('../images/section.standard.png');
 }
 .slide.code > div:first-of-type {
-background-image: url('../images/code.jpg');
-background-size: cover;
+  background-image: url('../images/code.standard.png');
+  background-size: cover;
 }
+
+/*
+
+  Widescreen
+
+*/
+.slide.widescreen > div:first-of-type {
+  background-image: url('../images/slide.widescreen.png');
+  background-size: contain;
+}
+.slide.widescreen.cover > div:first-of-type {
+  background-image: url('../images/cover.widescreen.png');
+}
+.slide.widescreen.section > div:first-of-type {
+  background-image: url('../images/section.widescreen.png');
+}
+.slide.widescreen.code > div:first-of-type {
+  background-image: url('../images/code.widescreen.png');
+  background-size: cover;
+}
+
+
+/*
+
+  Cover
+
+*/
 .slide.cover,.slide.section,.slide.shout {
-z-index: 1
+  z-index: 1
 }
 .slide.cover:after,.slide.section:after,.slide.shout:after {
-content: ''
+  content: ''
 }
 .slide.cover, .slide.section {
 background: #fff;
@@ -422,6 +453,19 @@ font-weight: bold;
 .slide.cover h2 a, .slide.section h2 a {
 color: #FFF;
 }
+.slide.cover img,.slide.cover svg,.slide.cover video,.slide.cover object,.slide.cover canvas,.slide.cover iframe {
+position: absolute;
+top: 0;
+left: 0;
+z-index: -1;
+width: 100%;
+}
+
+/*
+
+  Section
+
+*/
 .slide.section h1 {
 margin: 300px 0 0 -70px;
 text-transform: uppercase;
@@ -431,13 +475,7 @@ font-size: 40px;
 font-weight: bold;
 width: 75%;
 }
-.slide.cover img,.slide.cover svg,.slide.cover video,.slide.cover object,.slide.cover canvas,.slide.cover iframe {
-position: absolute;
-top: 0;
-left: 0;
-z-index: -1;
-width: 100%;
-}
+
 .slide.section img,.slide.section svg,.slide.section video,.slide.section object,.slide.section canvas,.slide.section iframe {
 position: absolute;
 top: 0;

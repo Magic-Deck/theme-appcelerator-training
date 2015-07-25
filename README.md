@@ -2,6 +2,12 @@
 
 Appcelerator training theme for the Ponyshow presentation engine.
 
+## Format
+
+Standard: 1024 x 768
+
+Widescreen: 1920 x 1080
+
 ### Gallery
 
 ![Gallery](https://monosnap.com/file/SPMkYMwKzPH0Ibre5OSVdmPgKgZjqo.png)

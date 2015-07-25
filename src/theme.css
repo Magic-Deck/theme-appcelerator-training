@@ -80,6 +80,10 @@ a {
 /*
   Main
 */
+div.rendererror {margin:auto;}
+div.rendererror img {content:url(../images/appcelerator-logo-white.png);}
+div.rendererror div {text-align:center;color:#fff;}
+  
 .noImg {
   position: relative;
   border: 1px solid lightgrey;
@@ -100,6 +104,7 @@ a {
   text-align: center;
   content: "Broken Image";
 }
+
 .caption {
   display: none;
   margin: 0 0 60px;

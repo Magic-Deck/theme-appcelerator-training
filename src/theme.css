@@ -287,7 +287,6 @@ div.rendererror .text {
   height: 94%;
   -webkit-flex-flow: column wrap;
   -webkit-align-items: flex-start;
-  -webkit-user-select: initial;
   overflow: visible;
 }
 .slide ol li,.slide ul li {
@@ -296,6 +295,8 @@ div.rendererror .text {
   line-height: 140%;
   margin-bottom: 1%;
   column-break-inside: avoid;
+  -webkit-user-select: initial;
+  cursor: pointer;
 }
 .slide ol li:before,.slide ul li:before {
   display: inline-block;

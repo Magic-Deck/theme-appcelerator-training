@@ -200,8 +200,8 @@ div.rendererror .text {
   left: 0;
   overflow: hidden;
   padding: 100px 130px 0 95px;
-  width: 800px;
-  height: 540px
+  width: 100%;
+  height: 100%;
 }
 .slide h1 {
   margin: -82px 0 0 -70px;

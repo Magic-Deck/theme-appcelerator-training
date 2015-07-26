@@ -287,6 +287,7 @@ div.rendererror .text {
   height: 94%;
   -webkit-flex-flow: column wrap;
   -webkit-align-items: flex-start;
+  -webkit-user-select: initial;
   overflow: visible;
 }
 .slide ol li,.slide ul li {
@@ -338,6 +339,7 @@ div.rendererror .text {
   white-space: pre-line;
   line-height: 1.4;
   font-size: 2vmin;
+  -webkit-user-select: initial;
 }
 .slide pre code:before {
   position: absolute;
@@ -363,7 +365,7 @@ color: #AAA
 }
 .slide table {
 margin: auto;
-width: 110%;
+width: 100%;
 border-collapse: collapse;
 border-spacing: 0
 }
@@ -372,6 +374,7 @@ background: -webkit-linear-gradient(bottom,#52A2DF,#52A2DF .055em,transparent .0
 background: linear-gradient(to top,#52A2DF,#52A2DF .055em,transparent .055em,transparent)repeat-x;
 line-height: 30px;
 font-size: 80%;
+-webkit-user-select: initial;
 }
 .slide table th {
   text-align: left;

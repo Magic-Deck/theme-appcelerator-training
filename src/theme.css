@@ -282,14 +282,12 @@ div.rendererror .text {
   list-style-image: url('../images/bullet.png');
   list-style-position: inside;
   clear: both;		
-  -moz-column-count: 2;		
-  -moz-column-gap: 30px;		
-  -webkit-column-count: 1;		
-  -webkit-column-gap: 30px;		
-  column-count: 1;		
-  column-gap: 30px;		
-  overflow:hidden;		
-  display: inline-block;
+  -webkit-column-gap: 20px;		
+  -webkit-columns: 16em;
+  height: 94%;
+  -webkit-flex-flow: column wrap;
+  -webkit-align-items: flex-start;
+  overflow: visible;
 }
 .slide ol li,.slide ul li {
   text-indent: 0em;

@@ -2,11 +2,16 @@
 
 Appcelerator training theme for the Ponyshow presentation engine.
 
-## Format
+## Formats
 
-Standard: 1024 x 768
+- **Standard**: 1024 x 768
+- **Widescreen**: 1920 x 1080
 
-Widescreen: 1920 x 1080
+## Classes
+
+### Tables
+
+- Class: `striped`.  Use this for the `tableclass` property in Ponyshow.
 
 ### Gallery
 

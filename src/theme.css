@@ -283,7 +283,7 @@ div.rendererror .text {
   list-style-position: inside;
   clear: both;		
   -webkit-column-gap: 20px;		
-  -webkit-columns: 16em;
+  -webkit-columns: 17em;
   height: 94%;
   -webkit-flex-flow: column wrap;
   -webkit-align-items: flex-start;

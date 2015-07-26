@@ -289,7 +289,7 @@ div.rendererror .text {
   column-count: 1;		
   column-gap: 30px;		
   overflow:hidden;		
-  height:100%;
+  display: inline-block;
 }
 .slide ol li,.slide ul li {
   text-indent: 0em;

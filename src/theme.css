@@ -441,14 +441,14 @@ background-image: url('../images/section.16x10.png');
 background: #fff;
 }
 .slide.cover h1, .slide.section h1 {
-margin: 300px 0 0 -40px;
+margin: 350px 0 0 -10px;
 text-align: left;
 font-size: 50px;
 font-weight: bold;
 color: #FFF;
 }
 .slide.cover h2 {
-margin: 10px 0 0 -40px;
+margin: 10px 0 0 -10px;
 text-align: left;
 color: #FFF;
 font-size: 26px;
@@ -471,7 +471,7 @@ width: 100%;
 
 */
 .slide.section h1 {
-margin: 300px 0 0 -40px;
+margin: 350px 0 0 -10px;
 text-transform: uppercase;
 color: #FFF;
 text-align: left;
@@ -604,7 +604,7 @@ clip: rect(0,auto,auto,0);
 padding: 50px 0 50px 50px;
 background: #e3e5e7;
 text-align: center;
-width: 100%;
+height: initial;
 }
 .list .caption,.list .badge {
 display: block

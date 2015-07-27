@@ -219,9 +219,9 @@ div.rendererror .text {
   font: 36px/1 'Open Sans Light',sans-serif
 }
 .slide p {
-  margin: 20px -30px;
+  margin: 5px -25px;
   font-size: calc(100% + .6vmax);
-  line-height: 50px;
+  line-height: 45px;
 }
 .slide p img {
   margin:none;
@@ -244,7 +244,8 @@ div.rendererror .text {
   background: rgba(0,0,0,.08);
   color: #000;
   line-height: 1;
-  font-family: 'Anka Coder',monospace
+  font-family: 'Anka Coder',monospace;
+  -webkit-user-select: initial;
 }
 .slide mark {
   padding: 2px 7px;
@@ -263,7 +264,9 @@ div.rendererror .text {
   top: -.5em
 }
 .slide blockquote {
-  font-style: italic
+  font-style: italic;
+  margin-bottom:10px;
+  font-size: 115%;
 }
 .slide blockquote:before {
   position: absolute;
@@ -272,6 +275,11 @@ div.rendererror .text {
   content: '\201C';
   line-height: 1;
   font-size: 85px;
+}
+.slide blockquote > img:first-of-type {
+  float: left;
+  margin-right: 7px;
+  padding-top: 5px;
 }
 .slide blockquote+figcaption {
   margin: -48px 0 48px;
@@ -308,7 +316,7 @@ div.rendererror .text {
   text-align: right
 }
 .slide ol ol,.slide ol ul,.slide ul ol,.slide ul ul {
-  margin: 10px 2em
+  margin: 5px 1.4em;
 }
 .slide ol li ul,.slide ol li ol {
   margin-top: 20px;
@@ -324,7 +332,7 @@ div.rendererror .text {
 }
 .slide ul li > ul li {
   margin: 0 0 5px 0;
-  font-size: 1em;
+  font-size: 0.8em;
 }
 
 .slide pre {
@@ -390,7 +398,7 @@ font-size: 80%;
   background: #f1f7fc
 }
 .slide p,.slide ol,.slide table,.slide pre,.slide figure {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .slide > div:first-of-type {
   background-image: url('../images/slide.16x10.png');

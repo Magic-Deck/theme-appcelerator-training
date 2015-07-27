@@ -176,9 +176,9 @@ div.rendererror .text {
   -ms-text-size-adjust: none;
   counter-increment:slide;
 }
-.slide.widescreen {
-  width: 1920px;
-  height: 1080px;
+.slide.standard {
+  width: 1024px;
+  height: 768px;
 }
 @media print {
   .slide {
@@ -390,17 +390,18 @@ font-size: 80%;
   margin-top: 20px;
 }
 .slide > div:first-of-type {
-  background-image: url('../images/slide.standard.png');
+  background-image: url('../images/slide.16x10.png');
   background-size: cover;
+  background-repeat:no-repeat;
 }
 .slide.cover > div:first-of-type {
-  background-image: url('../images/cover.standard.png');
+  background-image: url('../images/cover.16x10.png');
 }
 .slide.section > div:first-of-type {
-background-image: url('../images/section.standard.png');
+background-image: url('../images/section.16x10.png');
 }
 .slide.code > div:first-of-type {
-  background-image: url('../images/code.standard.png');
+  background-image: url('../images/code.16x10.png');
   background-size: cover;
 }
 
@@ -409,18 +410,18 @@ background-image: url('../images/section.standard.png');
   Widescreen
 
 */
-.slide.widescreen > div:first-of-type {
-  background-image: url('../images/slide.widescreen.png');
+.slide.standard > div:first-of-type {
+  background-image: url('../images/slide.4x3.png');
   background-size: cover;
 }
-.slide.widescreen.cover > div:first-of-type {
-  background-image: url('../images/cover.widescreen.png');
+.slide.standard.cover > div:first-of-type {
+  background-image: url('../images/cover.4x3.png');
 }
-.slide.widescreen.section > div:first-of-type {
-  background-image: url('../images/section.widescreen.png');
+.slide.standard.section > div:first-of-type {
+  background-image: url('../images/section.4x3.png');
 }
-.slide.widescreen.code > div:first-of-type {
-  background-image: url('../images/code.widescreen.png');
+.slide.standard.code > div:first-of-type {
+  background-image: url('../images/code.4x3.png');
   background-size: cover;
 }
 
@@ -700,7 +701,7 @@ position: absolute;
 top: 50%;
 left: 50%;
 overflow: hidden;
-margin: -320px 0 0 -512px;
+margin: -320px 0 0 -600px;
 width: 1024px;
 height: 640px;
 background: #000
@@ -730,7 +731,7 @@ display: block
 position: absolute;
 top: 0;
 left: 0;
-margin-left: 150%
+margin-left: 250%
 }
 .full .slide .next {
 visibility: hidden

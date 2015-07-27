@@ -219,9 +219,12 @@ div.rendererror .text {
   font: 36px/1 'Open Sans Light',sans-serif
 }
 .slide p {
-  margin: 20px -50px;
-  font-size: 4vmin;
+  margin: 20px -30px;
+  font-size: calc(100% + .6vmax);
   line-height: 50px;
+}
+.slide p img {
+  margin:none;
 }
 .slide p.note {
   color: #AAA

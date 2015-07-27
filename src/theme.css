@@ -265,8 +265,9 @@ div.rendererror .text {
 }
 .slide blockquote {
   font-style: italic;
-  margin-bottom:10px;
+  margin-bottom: 25px;
   font-size: 115%;
+  line-height: 30px;
 }
 .slide blockquote:before {
   position: absolute;

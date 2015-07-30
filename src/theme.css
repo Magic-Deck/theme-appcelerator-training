@@ -349,7 +349,7 @@ div.rendererror .text {
   display: block;
   padding: 0;
   background: 0 0;
-  white-space: pre-line;
+  white-space: pre;
   -webkit-user-select: initial;
   line-height: 1.2;
   font-size: calc(90% + .1vmax);

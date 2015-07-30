@@ -345,6 +345,11 @@ div.rendererror .text {
   -o-tab-size: 4;
   tab-size: 4
 }
+.slide pre[class*=language-][data-language]::before {
+	font-size: .5em;
+	padding: 0 .4em;
+	opacity: 0.3;
+}
 .slide pre code {
   display: block;
   padding: 0;

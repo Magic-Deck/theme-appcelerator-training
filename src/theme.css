@@ -291,8 +291,7 @@ div.rendererror .text {
   margin: 0 0 48px;
   counter-reset: list;  
   margin-left: 0px;
-  list-style-image: url('../images/bullet.png');
-  list-style-position: inside;
+  list-style: none;
   clear: both;		
   -webkit-column-gap: 20px;		
   -webkit-columns: 19em;
@@ -300,6 +299,10 @@ div.rendererror .text {
   -webkit-flex-flow: column wrap;
   -webkit-align-items: flex-start;
   overflow: visible;
+}
+.slide ul {
+	list-style-position: inside;
+	list-style-image: url('../images/bullet.png');
 }
 .slide ol li,.slide ul li {
   text-indent: 0em;
@@ -614,6 +617,11 @@ background: rgba(255,255,255,.7)
 bottom: 0
 }
 
+/*
+
+Prism Overrides
+
+*/
 .slide .token {
 	-webkit-user-select: initial;
 }

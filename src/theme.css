@@ -352,13 +352,13 @@ div.rendererror .text {
 }
 .slide pre code {
   display: block;
-  padding: 0;
   background: 0 0;
   white-space: pre;
   -webkit-user-select: initial;
   line-height: 1.2;
-  font-size: calc(90% + .1vmax);
+  font-size: calc(80% + .1vmax);
   letter-spacing: -1px;
+  padding: 15px;
 }
 .slide pre code:before {
   position: absolute;
@@ -612,6 +612,10 @@ background: rgba(255,255,255,.7)
 }
 .slide:hover footer {
 bottom: 0
+}
+
+.slide .token {
+	-webkit-user-select: initial;
 }
 
 

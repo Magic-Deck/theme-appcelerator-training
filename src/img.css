@@ -14,7 +14,7 @@ img.left {
 	margin-left: -30px;
 }
 
-img.left + ul, img.left + ol, img.left + table {clear:none;font-size:calc(100% - 7px);}
+img.left + ul, img.left + ol, img.left + table {clear:none;font-size:calc(100%);}
 img.left + ul > li, img.left + ol > li {line-height: 145%;margin-bottom: 4%;}
 img.left + p {display: -webkit-box;clear: both;font-size:15px;}
 

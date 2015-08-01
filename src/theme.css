@@ -194,14 +194,12 @@ div.rendererror .text {
   text-align: right;
   line-height: 1
 }
-.slide>div {
-  position: absolute;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-  padding: 100px 60px 0 60px;
-  width: 904px;
-  height: 540px;
+.slide > div {
+	position: absolute;
+	left: 0;
+	padding: 100px 60px 0;
+	width: 904px;
+	height: 540px
 }
 .slide h1 {
   margin: -102px 0 70px -40px;
@@ -218,15 +216,15 @@ div.rendererror .text {
   margin: 0 0 20px;
   font: 36px/1 'Open Sans Light',sans-serif
 }
-.slide > p {
-  margin: 5px -25px;
-  font-size: calc(100% + .2vmax);
-  line-height: 45px;
+.slide > div > p {
+	margin: 5px 0px;
+	font-size: calc(80% + .8vmax);
+	line-height: 45px
 }
-.slide > p img {
+.slide > div > p img {
   margin:none;
 }
-.slide > p.note {
+.slide > div > p.note {
   color: #AAA
 }
 .slide b, .slide strong {
@@ -305,20 +303,19 @@ div.rendererror .text {
 	list-style-image: url('../images/bullet.png');
 }
 .slide ol li,.slide ul li {
-  text-indent: 0em;
-  font-size: calc(100% + 0.6vmax);;
-  line-height: 140%;
-  margin-bottom: 1%;
-  -webkit-column-break-inside: avoid;
-  -webkit-user-select: initial;
-  column-break-inside: avoid;
-  cursor: pointer;
+	text-indent: 0;
+	font-size: calc(100% + .6vmax);
+	line-height: 140%;
+	margin-bottom: 1%;
+	-webkit-column-break-inside: avoid;
+	column-break-inside: avoid;
+	cursor: pointer;
 }
 .slide ol li:before,.slide ul li:before {
-  display: inline-block;
-  width: 2em;
-  color: #AAA;
-  text-align: right
+	display: inline-block;
+	width: 2em;
+	color: #AAA;
+	text-align: right;
 }
 .slide ol ol,.slide ol ul,.slide ul ol,.slide ul ul {
   margin: 5px 1.4em;
@@ -341,13 +338,13 @@ div.rendererror .text {
 }
 
 .slide pre {
-  margin: 0 0 45px;
-  padding: 3px 0 0;
-  counter-reset: code;
-  white-space: normal;
-  -moz-tab-size: 4;
-  -o-tab-size: 4;
-  tab-size: 4
+	margin: 0 0 45px;
+	padding: 3px 0 0;
+	counter-reset: code;
+	white-space: normal;
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
 }
 .slide pre[class*=language-][data-language]::before {
 	font-size: .5em;
@@ -409,7 +406,7 @@ font-size: 80%;
   background: #f1f7fc
 }
 .slide p,.slide ol,.slide table,.slide pre,.slide figure {
-  margin-top: 10px;
+  margin-top: 5px;
 }
 .slide > div:first-of-type {
   background-image: url('../images/slide.16x10.png');
@@ -625,6 +622,10 @@ Prism Overrides
 */
 .slide .token {
 	-webkit-user-select: initial;
+}
+.slide .token.lf:before {
+    content: '';
+		-webkit-user-select: initial;
 }
 
 

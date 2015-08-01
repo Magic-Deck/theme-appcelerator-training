@@ -1,0 +1,79 @@
+/*
+
+ Two column layouts 
+
+*/
+
+
+img.fit {
+	max-height: 100%;
+	max-width:100%;
+	height: auto;
+	margin: auto;
+	display:-webkit-box;
+}
+
+img.left {
+	margin-right: 20px;
+	max-height: 100%;
+	max-width: 50%;
+	float: left;
+	margin-left: -30px;
+}
+
+img.left + ul, img.left + ol, img.left + table {clear:none;font-size:calc(100% + 0.7vmax);}
+img.left + ul > li, img.left + ol > li {margin-bottom: 2%;}
+img.left + p {display: -webkit-box;clear: both;font-size:15px;}
+
+img.right {
+	margin-left: 20px;
+	max-height: 100%;
+	max-width: 50%;
+	float: right;
+	margin-right: -20px;
+}
+
+img.right + ul, img.right + ol, img.right + table { clear:none;font-size:calc(100% + 0.7vmax);}
+img.right + ul > li, img.right + ol > li {margin-bottom: 2%;}
+img.right + a {display: -webkit-box;clear: both;}
+img.left + p + a {display: -webkit-box;clear: both;}
+img.left + img.right + ul, img.left + img.right + ol, img.left + img.right + table {clear:both}
+
+
+/* Lists */
+.slide > div ol:nth-last-child(2), .slide > div > ul:nth-last-child(2) {
+	-webkit-columns: 19em;
+	-webkit-flex-flow: column wrap;
+	-webkit-align-items: flex-start;
+	-webkit-column-gap: 20px;
+	-webkit-columns: 19em;
+}
+.slide div > ul:nth-last-child(2), .slide div > ul:nth-last-child(2) + ul {
+  float:left;
+  clear:none;
+  display:block;
+  width:50%;
+}
+
+
+
+
+/* CODE */
+
+.slide > div pre:nth-last-child(3) {
+	float: left;
+  margin-right: 20px;
+	width: 47%;
+}
+
+.slide > div pre:nth-last-child(3) + p {
+	float: left;
+  position: relative;
+  top: -55px;
+}
+
+.slide > div pre:nth-last-child(3) + p + pre {
+	position: relative;
+	top: -51px;
+	margin-top: -1px;
+}

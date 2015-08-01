@@ -31,7 +31,7 @@ gulp.task('clean', function () {
 
 */
 gulp.task('minify-css', function () {
-  gulp.src(['src/theme.css','src/img.css'])
+  gulp.src(['src/theme.css','src/twocol.css'])
     .pipe(minifyCss({keepBreaks:false}))
     .pipe(concat('screen.css'))
     .pipe(header(getCopyright(), {version: getVersion()}))

@@ -309,8 +309,9 @@ div.rendererror .text {
   font-size: calc(100% + 0.6vmax);;
   line-height: 140%;
   margin-bottom: 1%;
-  column-break-inside: avoid;
+  -webkit-column-break-inside: avoid;
   -webkit-user-select: initial;
+  column-break-inside: avoid;
   cursor: pointer;
 }
 .slide ol li:before,.slide ul li:before {
@@ -823,3 +824,6 @@ background-repeat: no-repeat;
 background-size: contain;
 position: absolute;
 }
+
+
+

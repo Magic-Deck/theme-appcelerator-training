@@ -218,18 +218,18 @@ div.rendererror .text {
   margin: 0 0 20px;
   font: 36px/1 'Open Sans Light',sans-serif
 }
-.slide p {
+.slide > p {
   margin: 5px -25px;
-  font-size: calc(100% + .6vmax);
+  font-size: calc(100% + .2vmax);
   line-height: 45px;
 }
-.slide p img {
+.slide > p img {
   margin:none;
 }
-.slide p.note {
+.slide > p.note {
   color: #AAA
 }
-.slide b,.slide strong {
+.slide b, .slide strong {
   font-weight: 700
 }
 .slide .br {		

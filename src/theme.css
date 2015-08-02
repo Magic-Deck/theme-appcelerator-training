@@ -340,7 +340,7 @@ div.rendererror .text {
 }
 
 .slide pre {
-	margin: 0 0 45px;
+	margin: 0 0 15px;
 	padding: 3px 0 0;
 	counter-reset: code;
 	white-space: normal;

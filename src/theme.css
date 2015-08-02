@@ -218,7 +218,7 @@ div.rendererror .text {
 }
 .slide > div > p {
 	margin: 5px 0px;
-	font-size: calc(80% + .8vmax);
+	font-size: calc(80% + .6vmax);
 	line-height: 45px
 }
 .slide > div > p img {
@@ -402,7 +402,8 @@ font-size: 80%;
   text-align: left;
   font-weight: 700;
   font-size: 100%;
-  line-height: 2em;
+  line-height: 1em;
+	padding-bottom:10px;
 }
 .slide table.striped tr:nth-child(even) {
   background: #f1f7fc

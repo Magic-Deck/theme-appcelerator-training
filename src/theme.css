@@ -641,6 +641,7 @@ Prism Overrides
 .slide code[class*=language-bash], .slide code[class*=language-bash] .token.operator {
 	background-color: black;
 	color: white;
+	text-shadow: none;
 }
 .slide code[class*=language-bash] .token.comment {
 	color: #7B7B7B;

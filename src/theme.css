@@ -341,12 +341,14 @@ div.rendererror .text {
 
 .slide pre {
 	margin: 0 0 15px;
-	padding: 3px 0 0;
+	padding: 0;
 	counter-reset: code;
 	white-space: normal;
 	-moz-tab-size: 4;
 	-o-tab-size: 4;
 	tab-size: 4;
+	background-color: white;
+	border: 5px solid #999;
 }
 .slide pre[class*=language-][data-language]::before {
 	font-size: .5em;
@@ -362,9 +364,6 @@ div.rendererror .text {
   font-size: calc(80% + .1vmax);
   letter-spacing: -1px;
   padding: 15px;
-  color: #aaa;
-	background-color: white;
-	border: 5px solid #999;
 }
 .slide pre code:before {
   position: absolute;

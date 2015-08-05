@@ -302,6 +302,9 @@ div.rendererror .text {
 	list-style-position: inside;
 	list-style-image: url('../images/bullet.png');
 }
+.slide h2 + ul {
+	height: auto;
+}
 .slide ol li,.slide ul li {
 	text-indent: 0;
 	font-size: calc(100% + .6vmax);
@@ -388,10 +391,13 @@ background: 0 0;
 color: #AAA
 }
 .slide table {
-margin: auto;
 width: 100%;
 border-collapse: collapse;
-border-spacing: 0
+border-spacing: 0;
+margin-bottom: 15px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 5px;
 }
 .slide table th,.slide table td {
 background: -webkit-linear-gradient(bottom,#52A2DF,#52A2DF .055em,transparent .055em,transparent)repeat-x;

@@ -363,6 +363,8 @@ div.rendererror .text {
   letter-spacing: -1px;
   padding: 15px;
   color: #aaa;
+	background-color: white;
+	border: 5px solid #999;
 }
 .slide pre code:before {
   position: absolute;

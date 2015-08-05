@@ -362,6 +362,7 @@ div.rendererror .text {
   font-size: calc(80% + .1vmax);
   letter-spacing: -1px;
   padding: 15px;
+  color: #aaa;
 }
 .slide pre code:before {
   position: absolute;
@@ -631,6 +632,20 @@ Prism Overrides
 		-webkit-user-select: initial;
 }
 
+.slide code[class*=language-xml] .token .tag {
+	color:rgb(250, 115, 22);
+}
+.slide code[class*=language-xml] .token.attr-value {
+    color: #0536FC;
+}
+.slide code[class*=language-bash], .slide code[class*=language-bash] .token.operator {
+	background-color: black;
+	color: white;
+}
+.slide code[class*=language-bash] .token.comment {
+	color: #7B7B7B;
+	text-shadow: none;
+}
 
 @media screen {
 .list {

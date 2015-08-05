@@ -24,6 +24,8 @@ img.left {
 }
 
 img.left + ul, img.left + ol, img.left + table {clear:none;font-size:calc(100% + 0.7vmax);}
+img.left + table {width: 50%;font-size: smaller;}
+img.left + table + h2, img.left + table + h3 {clear: both;}
 img.left + ul > li, img.left + ol > li {margin-bottom: 2%;}
 img.left + p {display: -webkit-box;clear: both;font-size:15px;}
 

@@ -311,11 +311,20 @@ div.rendererror .text {
 	line-height: 140%;
 	margin-bottom: 1%;
 	-webkit-column-break-inside: avoid;
+	-webkit-user-select: initial;
 	column-break-inside: avoid;
 	word-wrap: break-word;
   word-break: break-word;
 	cursor: pointer;
 }
+
+.slide ol li::selection, .slide ul li::selection {
+  background: #fff2a8; /* WebKit/Blink Browsers */
+}
+.slide ol li::-moz-selection,  .slide ul li::-moz-selection {
+  background: #fff2a8; /* Gecko Browsers */
+}
+
 .slide ol li:before,.slide ul li:before {
 	display: inline-block;
 	width: 2em;

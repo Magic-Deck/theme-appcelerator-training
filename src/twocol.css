@@ -26,7 +26,7 @@ img.left {
 img.left + ul, img.left + ol, img.left + table {clear:none;font-size:calc(100% + 0.7vmax);}
 img.left + table {width: 50%;font-size: smaller;}
 img.left + table + h2, img.left + table + h3 {clear: both;}
-img.left + ul > li, img.left + ol > li {margin-bottom: 2%;}
+img.left + ul > li, img.left + ol > li {margin-bottom: 2%;font-size: calc(100%);}
 img.left + p {display: -webkit-box;clear: both;font-size:15px;}
 
 img.right {
@@ -39,7 +39,7 @@ img.right {
 }
 
 img.right + ul, img.right + ol, img.right + table { clear:none;font-size:calc(100% + 0.7vmax);}
-img.right + ul > li, img.right + ol > li {margin-bottom: 2%;}
+img.right + ul > li, img.right + ol > li {margin-bottom: 2%;font-size: calc(100%);}
 img.right + a {display: -webkit-box;clear: both;}
 img.left + p + a {display: -webkit-box;clear: both;}
 img.left + img.right + ul, img.left + img.right + ol, img.left + img.right + table {clear:both}

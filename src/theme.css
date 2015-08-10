@@ -318,10 +318,10 @@ div.rendererror .text {
 	cursor: pointer;
 }
 
-.slide ol li::selection, .slide ul li::selection {
+.slide ol li::selection, .slide ul li::selection, code::selection {
   background: #fff2a8; /* WebKit/Blink Browsers */
 }
-.slide ol li::-moz-selection,  .slide ul li::-moz-selection {
+.slide ol li::-moz-selection,  .slide ul li::-moz-selection, code::-moz-selection {
   background: #fff2a8; /* Gecko Browsers */
 }
 

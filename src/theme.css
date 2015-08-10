@@ -664,6 +664,11 @@ Prism Overrides
 	text-shadow: none;
 }
 
+code[class*=language-] ::selection, code[class*=language-]::selection, pre[class*=language-] ::selection, pre[class*=language-]::selection {
+    text-shadow: none;
+    background: #fff2a8;
+}
+
 @media screen {
 .list {
 position: absolute;

@@ -60,6 +60,10 @@ img.left + img.right + ul, img.left + img.right + ol, img.left + img.right + tab
   width:50%;
 }
 
+.slide div > ul:first-child {
+	height:auto;
+}
+
 
 
 

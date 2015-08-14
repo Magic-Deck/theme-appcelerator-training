@@ -302,9 +302,10 @@ div.rendererror .text {
 	list-style-position: inside;
 	list-style-image: url('../images/bullet.png');
 }
-.slide h2 + ul {
+.slide h2 + ul, .slide h2 + ol, .slide ul + h2, .slide ol + h2 {
 	height: auto;
 }
+
 .slide ol li,.slide ul li {
 	text-indent: 0;
 	font-size: calc(100% + .6vmax);
@@ -343,8 +344,6 @@ div.rendererror .text {
   content: '\2014\00A0\2009'
 }
 .slide ol>li:before {
-  counter-increment: list;
-  content: counter(list)'.\00A0\2009'
 }
 .slide ul li > ul li {
   margin: 0 0 5px 0;

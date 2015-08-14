@@ -1,6 +1,6 @@
 {
   "name": "ponyshow-theme-appcelerator-training",
-  "version": "1.0.28",
+  "version": "1.0.29",
   "description": "Appcelerator training theme for the Ponyshow presentation engine",
   "main": "gulpfile.js",
   "scripts": {

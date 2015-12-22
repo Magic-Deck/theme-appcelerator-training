@@ -1,6 +1,6 @@
 /*
 
- Two column layouts 
+ Two column layouts
 
 */
 
@@ -76,14 +76,14 @@ img.left + img.right + ul, img.left + img.right + ol, img.left + img.right + tab
 }
 
 .slide > div pre:nth-last-child(3) + p {
-	float: left;
+	/*float: left;*/
   position: relative;
-  top: -55px;
+  top: -50px;
 }
 
 .slide > div pre:nth-last-child(3) + p + pre {
 	position: relative;
-	top: -51px;
+	top: -45px;
 	margin-top: -1px;
 }
 
